@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <!--IMG LOGO-->
+
+
+    <!-- IMG LOGO-->
+    <ImageView
+        android:id="@+id/img_home_logo"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo_paulistar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--TXT NAME PERSON-->
+    <TextView
+        android:id="@+id/txv_home_name_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="133dp"
+        android:text="Renato"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!--TXT SCORE-->
+    <TextView
+        android:id="@+id/txv_home_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="33dp"
+        android:text="58"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- IMG DIVISOR -->
+
+
+
+    <!-- BTN FOOTER HOME -->
+    <Button
+        android:id="@+id/btn_home_footer_home"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:hint="Home"
+        android:textColorHint="white"
+        app:icon="@drawable/home_white_25px"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <!-- BTN FOOTER PROFILE -->
+    <Button
+        android:id="@+id/btn_home_footer_profile"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:hint="Perfil"
+        android:textColorHint="white"
+        app:icon="@drawable/user_white_25px"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <!-- BTN FOOTER LOGOUT -->
+    <Button
+        android:id="@+id/btn_home_footer_logout"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:hint="Sair"
+        android:textColorHint="white"
+        app:icon="@drawable/power_off_white_25px"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <ImageView
+        android:id="@+id/img_home_divisor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/divisor"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <TextView
+        android:id="@+id/txv_home_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha uma das opções abaixo:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <TextView
+        android:id="@+id/txv_home_score_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pontos"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageView
+        android:id="@+id/img_home_task2"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/task"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/txv_home_options4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cultivo de horta doméstica"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <ImageView
+        android:id="@+id/img_home_task"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/task"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <TextView
+        android:id="@+id/txv_home_options3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Separação de lixo para reciclagem"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <ImageView
+        android:id="@+id/img_home_task1"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/task"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:id="@+id/txv_home_options1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hábitos alimentares saudáveis"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <ImageView
+        android:id="@+id/img_home_task4"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/task"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <TextView
+        android:id="@+id/txv_home_options6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prática de atividades físicas"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <ImageView
+        android:id="@+id/img_home_task5"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/task"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <TextView
+        android:id="@+id/txv_home_options7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projetos voluntariados"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
